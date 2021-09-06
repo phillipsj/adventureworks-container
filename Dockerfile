@@ -1,5 +1,5 @@
 # Adventure Works Database on SQL Server 2019
-FROM mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
+FROM mcr.microsoft.com/mssql/server:2019-latest
 
 # Note: This isn't a secure password, and please don't use this for production.
 ENV SA_PASSWORD=ThisIsNotASecurePassword123
